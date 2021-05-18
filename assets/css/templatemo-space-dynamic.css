@@ -210,7 +210,7 @@ body {
 
 .main-red-button a {
   display: inline-block;
-  background-color: #fe3f40;
+  background-color: #6C63FF;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -239,7 +239,7 @@ header
 */
 
 .background-header {
-  background-color: #fff!important;
+  background-color: black!important;
   height: 80px!important;
   position: fixed!important;
   top: 0px;
@@ -250,7 +250,7 @@ header
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #1e1e1e!important;
+  color: #fff!important;
 }
 
 .background-header .main-nav .nav li:hover a {
@@ -262,7 +262,7 @@ header
 }
 
 .header-area {
-  background-color: #fafafa;
+  background-color: black;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -298,7 +298,7 @@ header
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #03a4ed;
+    color: #6C63FF;
     line-height: 100px;
     float: left;
     -webkit-transition: all 0.3s ease 0s;
@@ -308,7 +308,7 @@ header
 }
 
 .logo h4 span {
-  color: #fe3f40;
+  color: #6C63FF;
 }
 
 .background-header .main-nav .logo h4 {
@@ -344,21 +344,21 @@ header
 
 .header-area .main-nav .nav li:last-child a ,
 .background-header .main-nav .nav li:last-child a {
-  color: #fff !important;
+  color: white !important;
   padding: 0px 20px;
   font-weight: 400;
 }
 
 .header-area .main-nav .nav li:last-child a:hover,
 .header-area .main-nav .nav li:last-child a.active {
-  color: #fff !important;
+  color: white !important;
 }
 
 .header-area .main-nav .nav li a {
   display: block;
   font-weight: 500;
   font-size: 15px;
-  color: #2a2a2a;
+  color: white;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -371,23 +371,23 @@ header
 }
 
 .header-area .main-nav .nav li a {
-  color: #2a2a2a;
+  color: white;
 }
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #fe3f40!important;
+  color: #6C63FF!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #fe3f40!important;
+  color: #6C63FF!important;
   opacity: 1;
 }
 
 .header-area .main-nav .nav li:last-child a:hover ,
 .background-header .main-nav .nav li:last-child a:hover {
-  background-color: #03a4ed;
+  background-color: #6C63FF;
 }
 
 .header-area .main-nav .nav li.submenu {
@@ -406,7 +406,7 @@ header
 }
 
 .background-header .main-nav .nav li.submenu:after {
-  color: #2a2a2a;
+  color: white;
 }
 
 .header-area .main-nav .nav li.submenu ul {
@@ -431,8 +431,8 @@ header
 .header-area .main-nav .nav li.submenu ul li a {
   opacity: 1;
   display: block;
-  background: #f7f7f7;
-  color: #2a2a2a!important;
+  background: white;
+  color: white!important;
   padding-left: 20px;
   height: 40px;
   line-height: 40px;
@@ -448,7 +448,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #fe3f40!important;
+  color: #6C63FF!important;
   padding-left: 25px;
 }
 
@@ -796,7 +796,7 @@ preloader
     height: 16px;
     top: 12px;
     left: 15px;
-    background: #fe3f40;
+    background: #6C63FF;
     border-radius: 50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -819,7 +819,7 @@ preloader
     width: 16px;
     height: 16px;
     margin-left: 16px;
-    background: #fe3f40;
+    background: #6C63FF;
     border-radius: 50%;
 }
 
@@ -832,17 +832,19 @@ Banner Style
 */
 
 .main-banner {
+  background-color: #000000;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 226px 0px 120px 0px;
+  padding: 130px 0px 120px 0px;
   position: relative;
   overflow: hidden;
 }
 
 .main-banner:after {
   content: '';
-  background-image: url(../images/baner-dec-left.png);
+  /* background-color: #000000; */
+  /* background-image: url(../images/baner-dec-left.png); */
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -853,7 +855,8 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(../images/baner-dec-right.png);
+  /* background-color: #000000; */
+  /* background-image: url(../images/baner-dec-right.png); */
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -868,29 +871,35 @@ Banner Style
 
 .main-banner .left-content h6 {
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 32px;
   color: #fe3f40;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .main-banner .left-content h2 {
-  font-size: 50px;
-  font-weight: 700;
-  color: #2a2a2a;
-  line-height: 72px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+  line-height: 30px;
 }
 
 .main-banner .left-content h2 em {
-  color: #03a4ed;
+  /* color: #fe3f40; */
+  color: #6C63FF;
   font-style: normal;
 }
 
 .main-banner .left-content h2 span {
-  color: #fe3f40;
+  color: #6C63FF;
+
 }
 
 .main-banner .left-content p {
   margin: 20px 0px;
+  color: white;
+  text-align: center;
 }
 
 .main-banner .left-content form {
@@ -935,6 +944,9 @@ Banner Style
   color: #fff;
 }
 
+img .ar-home{
+  border-radius: 0 1rem 0 1rem;
+}
 
 
 /* 
