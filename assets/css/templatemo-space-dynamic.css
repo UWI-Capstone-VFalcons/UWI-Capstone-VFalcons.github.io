@@ -1103,6 +1103,7 @@ Portfolio
 .our-portfolio {
   padding-top: 120px;
   margin-top: 0px;
+  background-color: black;
 }
 
 .our-portfolio .section-heading h2 {
@@ -1318,6 +1319,7 @@ contact
 
 .contact-us {
   padding: 160px 0px;
+  background-color: black;
   background-image: url(../images/contact-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -1449,7 +1451,11 @@ Footer Style
 --------------------------------------------- 
 */
 
+footer{
+  background-color: black;
+}
 footer p {
+  color: white;
   text-align: center;
   margin: 30px 0px 45px 0px;
 }
@@ -1496,10 +1502,11 @@ responsive
     padding: 0px;
   }
   .about-us .left-image {
-    margin-right: 0px;
-    position: absolute;
-    bottom: -220px;
-    right: 0;
+    /* margin-right: 0px; */
+    /* position: absolute; */
+    /* bottom: -220px; */
+    /* right: 0; */
+    display: none;
   }
   .about-us .services {
     text-align: center;
@@ -1576,7 +1583,8 @@ responsive
 
 @media (max-width: 767px) {
   .about-us .left-image {
-    bottom: -280px;
+    /* bottom: -280px; */
+    display: none;
   }
   .our-blog .right-list {
     margin-left: 0px;
