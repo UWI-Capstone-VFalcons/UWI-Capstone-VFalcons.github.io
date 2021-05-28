@@ -1,0 +1,16 @@
+.doc-links{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+.doc-links h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    margin-right: 1rem;
+}
+.doc-links a{
+    font-size: 18px;
+    color: #6C63FF;
+}

@@ -1,10 +1,10 @@
 .carousel-main-container{
-  background-color: black;
+  background-color: none;
 }
 .carousel{
   position: relative;
-  height: 400px;
-  width: 30%;
+  height: 430px;
+  width: 50%;
   margin:0 auto;
   /* background-color:rebeccapurple ; */
 }
@@ -13,7 +13,7 @@
   .carousel{
     position: relative;
     height: 400px;
-    width: 50%;
+    width: 70%;
     margin:0 auto;
     /* background-color:blue ; */
   }
@@ -21,8 +21,9 @@
 
 .carousel_img{
   position: relative;
-  width: 100%;
+  width: auto;
   height: 100%;
+  border-radius: 20px
   /* object-fit: cover; */
 }
 

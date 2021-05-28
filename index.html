@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
@@ -21,6 +20,7 @@
     <link rel="stylesheet" href="assets/css/animated.css">
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/carousel.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 <!--
     
 TemplateMo 562 Space Dynamic
@@ -58,9 +58,10 @@ https://templatemo.com/tm-562-space-dynamic
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
-              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-              <li class="scroll-to-section"><a href="#about">About Application</a></li>
-              <li class="scroll-to-section"><a href="#services">Product Highlight</a></li>
+              <li class="scroll-to-section"><a href="#home" class="active">Home</a></li>
+              <li class="scroll-to-section"><a href="#features">Features</a></li>
+              <li class="scroll-to-section"><a href="#documentation">Demo & Documentation</a></li>
+              <li class="scroll-to-section"><a href="#team">The team</a></li>
               <!-- <li class="scroll-to-section"><a href="#portfolio">Portfolio</a></li> -->
               <!-- <li class="scroll-to-section"><a href="#blog">Blog</a></li>  -->
               <!-- <li class="scroll-to-section"><a href="#contact">Message Us</a></li>  -->
@@ -77,7 +78,8 @@ https://templatemo.com/tm-562-space-dynamic
   </header>
   <!-- ***** Header Area End ***** -->
 
-  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+  <!-- ***** Top section Area Start ***** -->
+  <div class="main-banner wow fadeIn" id="home" data-wow-duration="1s" data-wow-delay="0.5s">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -97,7 +99,7 @@ https://templatemo.com/tm-562-space-dynamic
                 </form> -->
                 <!-- <a href="https://uwi-ar-maps.herokuapp.com/" target="_blank" rel="noopener noreferrer">Click to Visit Our Application</a> -->
                 <button type="submit" class="main-button">
-                  <a href="https://uwi-ar-maps.herokuapp.com/" target="_blank" rel="noopener noreferrer">Click to Visit Our Application</a>
+                  <a href="https://uwi-ar-maps.herokuapp.com/" target="_blank" rel="noopener noreferrer">Get App Now</a>
                 </button>
               </div>
             </div>
@@ -111,8 +113,10 @@ https://templatemo.com/tm-562-space-dynamic
       </div>
     </div>
   </div>
+  <!-- ***** Top Section Area End ***** -->
 
-  <div id="about" class="about-us section">
+  <!-- ***** Fetures Area Start ***** -->
+  <div id="features" class="about-us section">
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
@@ -173,79 +177,130 @@ https://templatemo.com/tm-562-space-dynamic
       </div>
     </div>
   </div>
+  <!-- ***** Features Area End ***** -->
 
+  <!-- ***** Documentation Area Start ***** -->
+  <div id="documentation" class="our-services section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+          <div class="left-image">
 
+            <div class="carousel-main-container">
+              <div class='carousel'>
+                <button class="carousel_button carousel_button-right ">
+                  <img src="/assets/images/nav-left.svg" alt="">
+                </button>
+                <div class="carousel_track-container">
+                  <ul class="carousel-track">
+                    <li class="carousel_slide current-slide">
+                      <img class = 'carousel_img' src="/assets/images/Homescreen.png" alt="Home screen">
+                    </li>
+                    <li class="carousel_slide">
+                      <img class='carousel_img' src="/assets/images/helppage.png" alt="Help Screen">
+                    </li>
+                    <li class="carousel_slide">
+                      <img class='carousel_img' src="/assets/images/Overhead-Map.png" alt="Overhead Map Screen">
+                    </li>
+                    <li class="carousel_slide">
+                      <img class='carousel_img' src="/assets/images/QR-CodeScanner.png" alt="QR Screen">
+                    </li>
+                    <li class="carousel_slide">
+                      <img class='carousel_img' src="/assets/images/AR-Screen1.png" alt="AR Screen">
+                    </li>
+                    <li class="carousel_slide">
+                      <img class='carousel_img' src="/assets/images/AR-Screen2.png" alt="AR Screen">
+                    </li>
+                  </ul>
+                </div>
+                <button class="carousel_button carousel_button-left is-hidden">
+                  <img src="/assets/images/nav-left.svg" alt="">
+                </button>
+              
+                <div class="carousel_nav">
+                  <button class="carousel_indicator current-slide"></button>
+                  <button class="carousel_indicator"></button>
+                  <button class="carousel_indicator"></button>
+                  <button class="carousel_indicator"></button>
+                  <button class="carousel_indicator"></button>
+                  <button class="carousel_indicator"></button>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+          <div class="section-heading">
+            <h2>App Demo and Documentations</h2>
+            <p>The code for the project is accessible on github. Developers can fork and contribute to the project. 
+              The aim is to create a service that business can use to map their property. This can be used by 
+            their employees and customers. A demo of the app working and the relevant documentations can be found below.</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="doc-links">
+                <h4>App Demo:</h4>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"> Watch On YouTube</a>
+              </div>
+            </div>
 
-<div id= 'services' class="carousel-main-container">
-  <div class='carousel'>
-    <button class="carousel_button carousel_button-right ">
-      <img src="/assets/images/nav-left.svg" alt="">
-    </button>
-    <div class="carousel_track-container">
-      <ul class="carousel-track">
-        <li class="carousel_slide current-slide">
-          <img class = 'carousel_img' src="/assets/images/Homescreen.png" alt="">
-        </li>
-        <li class="carousel_slide">
-          <img class='carousel_img' src="/assets/images/helppage.png" alt="">
-        </li>
-        <li class="carousel_slide">
-          <img class='carousel_img' src="/assets/images/Overhead-Map.png" alt="">
-        </li>
-        <li class="carousel_slide">
-          <img class='carousel_img' src="/assets/images/QR-CodeScanner.png" alt="">
-        </li>
-        <li class="carousel_slide">
-          <img class='carousel_img' src="/assets/images/AR-Screen1.png" alt="">
-        </li>
-        <li class="carousel_slide">
-          <img class='carousel_img' src="/assets/images/AR-Screen2.png" alt="">
-        </li>
-      </ul>
-    </div>
-    <button class="carousel_button carousel_button-left is-hidden">
-      <img src="/assets/images/nav-left.svg" alt="">
-    </button>
-  
-    <div class="carousel_nav">
-      <button class="carousel_indicator current-slide"></button>
-      <button class="carousel_indicator"></button>
-      <button class="carousel_indicator"></button>
-      <button class="carousel_indicator"></button>
-      <button class="carousel_indicator"></button>
-      <button class="carousel_indicator"></button>
+            <div class="col-lg-12">
+              <div class="doc-links">
+                <h4>API Documentation:</h4>
+                <a href="https://documenter.getpostman.com/view/8140774/TzCJfpsg" target="_blank" rel="noopener noreferrer"> Postman documentation</a>
+              </div>
+            </div>
+
+            <div class="col-lg-12">
+              <div class="doc-links">
+                <h4>Developer Documentation:</h4>
+                <a href="https://github.com/UWI-Capstone-VFalcons/AR-Maps#readme" target="_blank" rel="noopener noreferrer"> Github Link</a>
+              </div>
+            </div>
+
+            <div class="col-lg-12">
+              <div class="doc-links">
+                <h4>Project Organization:</h4>
+                <a href="https://github.com/UWI-Capstone-VFalcons" target="_blank" rel="noopener noreferrer"> V-Falcons</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
+  <!-- ***** Documentation Area End ***** -->
 
 
-
-  <div id="portfolio" class="our-portfolio section">
+  <!-- ***** The Team Area Start ***** -->
+  <div id="team" class="our-portfolio section">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 offset-lg-3">
           <div class="section-heading  wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
-            <h2><span>Meet Our Development Team</span></h2>
+            <h2><span>Meet the Development Team</span></h2>
             <!-- <em>Offers</em> &amp; What We  -->
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-3 col-sm-6">
-          <a href="#">
+          <a href="https://lewiking.com/" target="_blank" rel="noopener noreferrer">
             <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
               <div class="hidden-content">
                 <h4>Phillip Llewelyn</h4>
                 <p>Front-End and Backend Developer.</p>
               </div>
               <div class="showed-content">
-                <img src="assets/images/phillip.jpg" alt="">
+                <img id="phillip-img" src="assets/images/phillip.jpg" alt="">
               </div>
             </div>
           </a>
         </div>
         <div class="col-lg-3 col-sm-6">
-          <a href="#">
+          <a href="https://bedassie-n.github.io/" target="_blank" rel="noopener noreferrer">
             <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
               <div class="hidden-content">
                 <h4>Nathaniel Bedassie</h4>
@@ -258,7 +313,7 @@ https://templatemo.com/tm-562-space-dynamic
           </a>
         </div>
         <div class="col-lg-3 col-sm-6">
-          <a href="#">
+          <a href="#team">
             <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
               <div class="hidden-content">
                 <h4>Annabelle Ellis</h4>
@@ -271,7 +326,7 @@ https://templatemo.com/tm-562-space-dynamic
           </a>
         </div>
         <div class="col-lg-3 col-sm-6">
-          <a href="#">
+          <a href="#team">
             <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.6s">
               <div class="hidden-content">
                 <h4>De'andrew Moore</h4>
@@ -286,6 +341,7 @@ https://templatemo.com/tm-562-space-dynamic
       </div>
     </div>
   </div>
+  <!-- ***** The team Area End ***** -->
 
   <!-- <div id="blog" class="our-blog section">
     <div class="container">
@@ -361,6 +417,8 @@ https://templatemo.com/tm-562-space-dynamic
     </div>
   </div> -->
 
+
+  <!-- ***** Contact us Area Start ***** -->
   <div id="contact" class="contact-us section">
     <div class="container">
       <div class="row">
@@ -410,6 +468,7 @@ https://templatemo.com/tm-562-space-dynamic
       </div>
     </div>
   </div>
+  <!-- ***** Contact us Area Start ***** -->
 
   <footer>
     <div class="container">
